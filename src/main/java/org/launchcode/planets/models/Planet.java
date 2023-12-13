@@ -1,11 +1,16 @@
 package org.launchcode.planets.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
 public class Planet {
 
     private String name;
-    private String diameter;
+    private int diameter;
     private String star;
-    private String distance;
+    private int distance;
     private String image;
     private int moons;
 
